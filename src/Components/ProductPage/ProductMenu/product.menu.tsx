@@ -13,7 +13,7 @@ export interface ProductInfo {
     name: string,
     type: string,
     price: number,
-    catchPhrase: string,
+    overview: string,
     imgLink: string,
     productUrl: string,
 }
@@ -34,7 +34,7 @@ function ProductMenu(props: ProductMenuProps,) {
         name: props.name,
         type: props.type,
         price: props.price,
-        catchPhrase: props.catchPhrase,
+        overview: props.overview,
         discountedPrice: props.discountedPrice,
         imgAlt: props.imgAlt,
         imgLink: props.imgLink,
@@ -44,18 +44,12 @@ function ProductMenu(props: ProductMenuProps,) {
     useEffect(() => {
         setProduct(prevState => ({
           ...prevState,
-          id: identificator
+          id: v4()
         }));
-    }, [identificator]);
+    },[product]);
 
     const handleSubmit = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
         event.preventDefault();
-    
-        const newIdentificator = v4();
-        setIdentificator(newIdentificator);
-    
-        props.createId(newIdentificator);
-        console.log(newIdentificator);
         
         handleAddProductToCart(product);
         setIsProduictInCart(true)
@@ -78,7 +72,7 @@ function ProductMenu(props: ProductMenuProps,) {
             <h3 className='product-title'>{props.name}</h3>
             <div className='product-type'>{props.type}</div>
             <div className='price'>R$ {props.price.toFixed(2)}</div>
-            <div className='product-catch-phrase'>{props.catchPhrase}</div>            
+            <div className='product-catch-phrase'>{props.overview}</div>            
             {isProduictInCart ? (
                 <>
                 <div style={{display:'flex'}}>
