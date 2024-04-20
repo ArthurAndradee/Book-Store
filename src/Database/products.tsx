@@ -66,4 +66,48 @@ export const products =
             discountedPrice: 0,
             productUrl: 'o-codigo-da-vinci',
         },
+        {
+            id: '',
+            imgAlt: 'Interestelar',
+            imgLink: 'https://ae03.alicdn.com/kf/S3849da0529034879a640d1fc5b87dc1aZ.jpg',
+            name: 'Interestelar',
+            type: 'FICÇÃO CIENTÍFICA',
+            overview: '“O FIM DA TERRA NÃO SERÁ O NOSSO FIM”Do aclamado cineasta Christopher Nolan, diretor de A origem (Inception) e da trilogia Batman – O Cavaleiro das Trevas (Batman - The Dark Knight), INTERESTELAR é a crônica de um grupo de exploradores que se aproveita de um recém-descoberto buraco de minhoca para ultrapassar os limites das viagens espaciais tripuladas e assim conquistar as grandes distâncias de uma jornada interestelar. Enquanto viajam, estão em risco o destino do planeta... Terra...e o futuro da raça humana.O livro INTERESTELAR consegue explicar com clareza a teoria do físico Kip Thorne, que inspirou esta incrível história de ficção científica. Não é por nada que o filme, estrelado por Matthew McConaughey e Anne Hathaway, tornou-se imediatamente um cult mundial. No entanto, graças ao livro, com suas 268 páginas, as complexas e sofisticadas teorias desenvolvidas por Kip Thorne ficam accessíveis à maioria dos leitores. O filme, por sua vez, até pela sua própria linguagem e natureza, não consegue "traduzir" toda a profundidade e dimensão da história. Um livro profundo e interessante, para aqueles que viram o filme e para os que se preocupam com o futuro da humanidade.',
+            price: 59.90,
+            discountedPrice: 51.00,
+            productUrl: 'interestelar-Cristopher-Nolan'
+        },
+        {
+            id: '',
+            imgAlt: 'Battle Royale',
+            imgLink: 'https://a-static.mlcdn.com.br/450x450/livro-battle-royale/magazineluiza/223209700/cc3c6c75f4503ab070d631c77b96438c.jpg',
+            name: 'Battle Royale',
+            type: 'FICCÇÃO CIENTÍFICA',
+            overview: 'Em 1997, o jornalista e escritor japonês Koushun Takami sofreu uma grande decepção. O manuscrito de seu romance de estreia havia chegado à final do Japan Grand Prix Horror Novel, concurso literário voltado para a ficção de terror, mas acabou preterido. Não era para menos. Embora habituado a tramas assustadoras, o júri se alarmou com a história do jogo macabro entre adolescentes de uma mesma turma escolar que, confinados numa ilha, têm de matar uns aos outros até que reste apenas um sobrevivente. Detalhe: o organizador da sangrenta disputa é o próprio Estado japonês, imaginado pelo autor como uma totalitária República da Grande Ásia Oriental.',
+            price: 69.50,
+            discountedPrice: 0,
+            productUrl: 'battle-royale-Koushun-Takami'
+        },
+        {
+            id: '',
+            imgAlt: 'A culpa é das estrelas',
+            imgLink: 'https://http2.mlstatic.com/D_NQ_NP_948576-MLB47655470258_092021-O.webp',
+            name: 'A culpa é das estrelas',
+            type: 'ROMANCE',
+            overview: 'Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante ― o que lhe dá a promessa de viver mais alguns anos ―, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.',
+            price: 44.99,
+            discountedPrice: 0,
+            productUrl: 'a-culpa-e-das-estrelas-john-green'
+        },
+        {
+            id: '',
+            imgAlt: 'Amor & Gelato',
+            imgLink: 'https://a-static.mlcdn.com.br/450x450/kit-amor-gelato-jenna-evans-welch/institutobeneficenteboanova/84691/92213978695c3f84edd7f0f9a44f1b20.jpeg',
+            name: 'Amor & Gelato',
+            type: 'ROMANCE',
+            overview: "Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um homem que nunca tinha ouvido falar. Apesar das belezas arquitetônicas, da história da cidade e das comidas maravilhosas, o que Lina mais quer é ir embora correndo dali. Mas as coisas começam a mudar quando ela recebe um antigo diário da mãe. Nele, a menina embarca em uma misteriosa história de amor, que pode explicar suas próprias origens. No meio desse turbilhão de emoções, Lina ainda conhece Ren e Thomas, dois meninos lindos que vão mexer ainda mais com seu coração. Uma trajetória que fará Lina descobrir o amor, a si mesma e também aprender a lidar com a perda. Amor & gelato é uma deliciosa viagem pelos mais românticos pontos turísticos italianos, com direito a tudo de mais intenso que o lugar tem a oferecer: desde paixões até corações partidos.",
+            price: 59.90,
+            discountedPrice: 41.18,
+            productUrl: 'amor-&-gelato-Jenna-Evans-Welch'
+        },
     ]
