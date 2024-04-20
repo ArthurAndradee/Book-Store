@@ -110,4 +110,48 @@ export const products =
             discountedPrice: 41.18,
             productUrl: 'amor-&-gelato-Jenna-Evans-Welch'
         },
+        {
+            id: '',
+            imgAlt: 'A Interpretação dos Sonhos',
+            imgLink: 'https://images-americanas.b2w.io/produtos/32241286/imagens/livro-fisico-a-interpretacao-dos-sonhos-sigmund-freud/32241284_1_large.jpg',
+            name: 'A Interpretação dos Sonhos',
+            type: 'NÃO-FICÇÃO',
+            overview: 'Mais do que revolucionar a Psicologia e contribuir para as Neurociências, o conhecimento sistematizado por Sigmund Freud em suas obras revelou um estilo de escrita peculiar, que muito diz sobre o próprio funcionamento da mente proposto por sua Psicanálise. A fala do sujeito é o centro de suas teorias e do trabalho psicanalítico, revelando questões do inconsciente. Ler Freud, então, não é algo que deva estar circunscrito a psicanalistas e psicólogos. A leitura é interessante aos que buscam entender como se dá o uso da própria linguagem. Os caminhos para esse entendimento se revelam à luz da compreensão de diversas patologias mentais estudadas pelo Pai da Psicanálise (e de conceitos já amplamente difundidos, perfeitamente acessíveis nos textos originais de Freud)',
+            price: 62.25,
+            discountedPrice: 49.80,
+            productUrl: 'a-interpretacao-dos-sonhos-Sigmund-Freud'
+        },
+        {
+            id: '',
+            imgAlt: 'Assim Falou Zaratustra',
+            imgLink: 'https://images-americanas.b2w.io/produtos/3449359857/imagens/livro-fisico-assim-falava-zaratustra-friedrich-nietzsche-pdl/3449359857_1_large.jpg',
+            name: 'Assim Falou Zaratustra',
+            type: 'NÃO-FICÇÃO',
+            overview: 'Um dos trabalhos filosóficos mais lidos e influentes de todos os tempos, Assim falou Zaratustra talvez deva sua extraordinária fortuna ao seu caráter híbrido: filosofia, religião e literatura nele se juntam de maneira complexa e atraente. Ao publicar Além do bem e do mal, livro imediatamente posterior, Nietzsche revelou ao amigo Jacob Burckhardt que a nova publicação continha “as mesmas coisas que havia dito antes pela boca de Zaratustra, mas de modo diferente, bem diferente”. De fato, o leitor reconhecerá, na linguagem metafórica e alegórica dos discursos e diálogos de Zaratustra, muitas das ideias que seriam desenvolvidas em prosa reflexiva nas obras posteriores ― ou que já haviam sido abordadas em Aurora e A gaia ciência, livros aos quais ele chegou a se referir como “comentários ao Zaratustra antes que ele aparecesse”',
+            price: 29.90,
+            discountedPrice: 0,
+            productUrl: 'assim-falou-zaratustra-Friedrich-Nietzsche'
+        },
+        {
+            id: '',
+            imgAlt: '',
+            imgLink: '',
+            name: '',
+            type: '',
+            overview: '',
+            price: 0,
+            discountedPrice: 0,
+            productUrl: ''
+        },
+        {
+            id: '',
+            imgAlt: '',
+            imgLink: '',
+            name: '',
+            type: '',
+            overview: '',
+            price: 0,
+            discountedPrice: 0,
+            productUrl: ''
+        },
     ]
