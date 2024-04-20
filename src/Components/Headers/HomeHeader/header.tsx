@@ -57,9 +57,9 @@ function Header() {
           </div>
 
           <div className='navTitleBox'>
-              <div className='navTitle'><a href={'/femininos'} className='navLink'>Ficcção Científica</a></div>
-              <div className='navTitle'><a href={'/masculinos'} className='navLink'>Psicologia</a></div>
-              <div className='navTitle'><a href={'/edicao-limitada'} className='navLink'>Romance</a></div>
+              <div className='navTitle'><a href={'/ficcao-cientifica'} className='navLink'>Ficcção Científica</a></div>
+              <div className='navTitle'><a href={'/romance'} className='navLink'>Romance</a></div>
+              <div className='navTitle'><a href={'/nao-ficcao'} className='navLink'>Não-Ficcção</a></div>
               <div className='navTitle'><a href={'/promocoes'} className='navLink'>Promoções</a></div>
           </div>
 
@@ -72,13 +72,8 @@ function Header() {
               <div><Link to={'/wishlist'} style={{color:'#000000'}}><FontAwesomeIcon icon={faHeart} /></Link></div>
               <div style={{display:'flex'}}>
                   <Link to={'/cart'} style={{color:'#000000'}}><FontAwesomeIcon icon={faCartShopping} /></Link>
-                  {showCartItemsQuantity ? (
-                    <>
+                  {showCartItemsQuantity && (
                     <div className='items-count'>{cartProducts?.length}</div>
-                    </>
-                  ):(
-                    <>
-                    </>
                   )}
               </div>
           </div>

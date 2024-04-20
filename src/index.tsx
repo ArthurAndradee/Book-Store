@@ -36,7 +36,7 @@ const productRoutes = products.map(product => ({
             type={product.type} 
             price={product.price} 
             discountedPrice={product.discountedPrice}
-            catchPhrase={product.catchPhrase}
+            overview={product.overview}
             productUrl={product.productUrl} 
           />, 
 })); 
@@ -91,30 +91,30 @@ const router = createBrowserRouter([{
 },
 //-------------------------CATEGORY LINKS-------------------------
 {
-  path: '/femininos',
+  path: '/ficcao-cientifica',
   element: <CategoryPage 
-  type={['F', 'U']} 
+  type={['F']} 
   
-            category={'Feminino'}/>, 
+            category={'Ficção Científica'}/>, 
 },
 { 
-  path: '/masculinos',
+  path: '/romance',
   element: <CategoryPage
-  type={['M', 'U']} 
+  type={['R']} 
   
-            category={'Masculino'}/>, 
+            category={'Romance'}/>, 
 },
 {
-  path: '/edicao-limitada',
+  path: '/nao-ficcao',
   element: <CategoryPage 
-  type={['L']} 
+  type={['N']} 
   
-            category={'Edição Limitada'}/>, 
+            category={'Não-Ficção'}/>, 
 },
 {
   path: '/promocoes',
   element: <CategoryPage 
-  type={['M', 'F', 'U', 'L']} 
+  type={['F', 'R', 'N']} 
   
             category={'Promoções'}/>, 
 },

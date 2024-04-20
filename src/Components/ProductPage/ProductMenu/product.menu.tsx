@@ -27,7 +27,6 @@ function ProductMenu(props: ProductMenuProps,) {
     const [isProduictInCart, setIsProduictInCart] = useState(false)
     const [isProductInWishlist, setIsProductInWishlist] = useState(false)
     const [wishlistButtonBackgroundDisplay,setWishlistButtonBackgroundDisplay] = useState('')
-    const [identificator, setIdentificator] = useState('')
 
     const [product, setProduct] = useState<ProductInfo>({
         id: props.id,

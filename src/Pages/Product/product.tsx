@@ -11,7 +11,7 @@ interface ProductProps {
     type: string
     price: number
     discountedPrice: number
-    catchPhrase: string
+    overview: string
     imgLink: string
     imgAlt: string
     productUrl: string
@@ -36,7 +36,7 @@ function ProductPage(props: ProductProps) {
                   type={props.type}
                   price={props.price}
                   discountedPrice={props.discountedPrice} 
-                  catchPhrase={props.catchPhrase}
+                  overview={props.overview}
                   imgLink={props.imgLink}
                   imgAlt={props.imgAlt} 
                   productUrl={props.productUrl}
