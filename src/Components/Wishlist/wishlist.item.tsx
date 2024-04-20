@@ -29,7 +29,6 @@ function WishlistItem() {
                             <img alt={product.imgAlt} src={product.imgLink}/>
                             <p className="product-name">{product.name}</p>
                         </Link>
-                    <span className="product-variations">{product.variations}</span>
                     <span className="product-remove" onClick={() => handleRemoveProductFromWishlist(product)}>Remover da lista de desejos</span>
                 </div>
                 )

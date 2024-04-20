@@ -9,9 +9,7 @@ export const products =
             catchPhrase: 'Libere seu lado punk no estilo assinado por Chuck Taylor',
             price: 799.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-70-de-luxe-heel-chrome-queen-preto',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -22,9 +20,7 @@ export const products =
             catchPhrase: 'OFF THE WALL',
             price: 649.90,
             discountedPrice: 449.90,
-            variations: '1 cor',
             productUrl: 'vans-the-lizzie-cloud',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -35,9 +31,7 @@ export const products =
             catchPhrase: 'JUST DO IT',
             price: 649.90,
             discountedPrice: 549.90,
-            variations: '1 cor',
             productUrl: 'nike-court-vision-mid-nn-all-black',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -48,9 +42,7 @@ export const products =
             catchPhrase: 'Libere seu lado punk no estilo assinado por Chuck Taylor',
             price: 1090.00,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'converse-x-martine-ali-chuck-70-xhi-preto',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -61,9 +53,7 @@ export const products =
             catchPhrase: 'Libere seu lado punk no estilo assinado por Chuck Taylor',
             price: 599.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-taylor-all-star-modern-lift-chrome-queen-preto',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -74,9 +64,7 @@ export const products =
             catchPhrase: 'Libere seu lado punk no estilo assinado por Chuck Taylor',
             price: 449.90,
             discountedPrice: 349.90,
-            variations: '1 cor',
             productUrl: 'tenis-coverse-chuck-taylor-all-star-hi-future-utility',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -87,9 +75,7 @@ export const products =
             catchPhrase: 'OFF THE WALL',
             price: 249.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'vans-sem-cadarço-classic',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -100,9 +86,7 @@ export const products =
             catchPhrase: 'JUST DO IT',
             price: 1049.90,
             discountedPrice: 849.90,
-            variations: '1 cor',
             productUrl: 'tenis-nike-air-max-97',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -113,9 +97,7 @@ export const products =
             catchPhrase: 'Libere seu lado punk no estilo assinado por Chuck Taylor',
             price: 549.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-taylor-all-star-chrome-queen-branco',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -126,9 +108,7 @@ export const products =
             catchPhrase: 'OFF THE WALL',
             price: 599.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'vans-hi-benegas-x-enarson-white',
-            productSize: '0'
         },
         {
             id: 'id',
@@ -139,9 +119,7 @@ export const products =
             catchPhrase: 'Definindo moda alternativa',
             price: 615.00,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'slacker-160w',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -152,9 +130,7 @@ export const products =
             catchPhrase: 'Definindo moda alternativa',
             price: 690.00,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'camel-311wpu',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -165,9 +141,7 @@ export const products =
             catchPhrase: 'Definindo moda alternativa',
             price: 805.00,
             discountedPrice: 0,
-            variations: '1 COR',
             productUrl: 'gravedigger-250bvl',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -178,9 +152,7 @@ export const products =
             catchPhrase: 'Definindo moda alternativa',
             price: 680.00,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'shaker-70',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -191,9 +163,7 @@ export const products =
             catchPhrase: 'Definindo moda alternativa',
             price: 535.00,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'shaker-52',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -204,9 +174,7 @@ export const products =
             catchPhrase: 'Defina o seu padrão audacioso com esse icônico All Stat City Trek.',
             price: 499.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-taylor-all-star-city-trek-cano-alto-normal-marrom',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -217,9 +185,7 @@ export const products =
             catchPhrase: 'Enfrente terrenos urbanos imprevisíveis em tênis de cano alto que oferecem conforto e estilo confiáveis.',
             price: 499.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-taylor-all-star-city-trek-cano-alto-normal-cinza',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -230,9 +196,7 @@ export const products =
             catchPhrase: 'Esses Chucks adoram jardinagem, e você também.',
             price: 599.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-70-garden-starter-waxed-canvas-cano-alto-grande-marrom',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -243,9 +207,7 @@ export const products =
             catchPhrase: 'Esses Chucks adoram jardinagem, e você também.',
             price: 599.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'chuck-70-garden-starter-waxed-canvas-cano-alto-grande-amarelo',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -256,9 +218,7 @@ export const products =
             catchPhrase: 'Vista-se com algo ousado, como este icônico Pro Blaze, feito todo de material sintético.',
             price: 379.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'pro-blaze-v2-cano-baixo-normal-preto',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -269,9 +229,7 @@ export const products =
             catchPhrase: 'Vista-se com algo ousado, como este icônico Pro Blaze, feito todo de material sintético.',
             price: 379.90,
             discountedPrice: 0,
-            variations: '1 cor',
             productUrl: 'pro-blaze-v2-cano-baixo-normal-branco',
-            productSize: '0',
         },
         //--------------------------LIMITED-EDITION--------------------------
         {
@@ -283,9 +241,7 @@ export const products =
             catchPhrase: 'Siga seu coração com o tênis Converse x PLAY Comme des Garçons Chuck 70.',
             price: 899.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'converse-x-comme-des-garcons-play-chuck-70-cano-alto-preto',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -296,9 +252,7 @@ export const products =
             catchPhrase: 'O logo de coração e olhinhos à espreita está de volta no Chuck 70 em dois novos tons sazonais.',
             price: 899.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'converse-x-comme-des-garcons-play-chuck-70-cano-alto-grande-azul',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -309,9 +263,7 @@ export const products =
             catchPhrase: 'Siga seu coração com o Converse x Comme des Garçons PLAY Chuck 70.',
             price: 899.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'converse-x-comme-des-garcons-multi-heart-chuck-70-branco-cano-alto-grande-branco',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -322,9 +274,7 @@ export const products =
             catchPhrase: 'A Converse comemora 50 anos do RPG Dungeons & Dragons com Chucks de edição limitada, trazendo a tela clássica para as aventuras épicas de D&D.',
             price: 499.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'dungeons-dragons-x-converse-chuck-taylor-all-star-cano-alto-grande-preto',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -335,9 +285,7 @@ export const products =
             catchPhrase: 'A Converse comemora 50 anos de Dungeons & Dragons com uma edição limitada do Chuck 70, trazendo o ícone favorito dos fãs para o mundo de fantasia do lendário RPG.',
             price: 699.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'dungeons-dragons-x-converse-chuck-70-cano-alto-grande-preto',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -348,9 +296,7 @@ export const products =
             catchPhrase: 'A Converse comemora 50 anos de Dungeons & Dragons com um Chuck 70 de couro de edição limitada, trazendo o ícone favorito dos fãs para o mundo de fantasia do lendário RPG.',
             price: 749.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'dungeons-dragons-x-converse-chuck-70-cano-alto-grande-branco',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -361,9 +307,7 @@ export const products =
             catchPhrase: 'Converse comemora 50 anos do RPG Dungeons & Dragons com Chucks de edição limitada, trazendo a tela clássica para as aventuras épicas de D&D.',
             price: 499.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'dungeons-dragons-x-converse-chuck-taylor-all-star-cano-alto-grande-ci05030001-preto',
-            productSize: '0',
         },
         {
             id: 'id',
@@ -374,8 +318,6 @@ export const products =
             catchPhrase: 'Estilo ou desempenho? O One Star Pro oferece os dois.',
             price: 549.90,
             discountedPrice: 0,
-            variations: '1 Cor',
             productUrl: 'one-star-pro-cano-baixo-normal-preto',
-            productSize: '0',
         },
     ]

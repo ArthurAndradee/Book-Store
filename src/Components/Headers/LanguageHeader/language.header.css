@@ -20,19 +20,8 @@
   background-color: white
 }
 
-.logo-box img {
-  height: 20px;
-  width: 20px;
-
-  margin: 0;
-
-  background-color:1white
-}
-
 .logo-box div {
-  width: 90px;
-  
-  margin-right: 2px;
+  margin-right: 5px;
 
   background-color: white;
 

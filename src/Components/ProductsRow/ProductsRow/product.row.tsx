@@ -35,7 +35,6 @@ function ProductsRow() {
                             imgLink={product.imgLink}
                             name={product.name}
                             price={product.price}
-                            variations={product.variations}
                             productUrl={product.productUrl}
                             discountedPrice={product.discountedPrice}
                         />

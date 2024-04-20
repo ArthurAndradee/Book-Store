@@ -1,4 +1,4 @@
-import { faTruckFast } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faTruckFast } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './footer.css';
 import { faFacebookF, faInstagram, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
@@ -24,10 +24,10 @@ function Footer() {
         <h4>Cupons e Descontos</h4>
       </section>
       <section className='company-container'>
-        <img alt='logo' src='https://www.logo.wine/a/logo/Converse_(shoe_company)/Converse_(shoe_company)-Icon-Logo.wine.svg' />
+        <FontAwesomeIcon icon={faBook} style={{fontSize:"35px"}}/>
         <h4>Nossa História</h4>
         <p>Conheça mais sobre a história da marca 
-          Converse</p>
+          Bookstore</p>
       </section>
       <section className='socials-container'>
         <div className='icons-container'>

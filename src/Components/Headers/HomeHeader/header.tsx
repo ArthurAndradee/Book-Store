@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faCartShopping, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faHeart } from '@fortawesome/free-regular-svg-icons';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -46,20 +46,20 @@ function Header() {
         <Slider {...sliderSettings} className='slider'>
             <h3 className='slider-text'>APROVEITE NOSSA PROMOÇÃO COM <h3 className='blueSliderText'>ATÉ 50% OFF!</h3></h3>
             <h3 className='slider-text'>NINGUÉM VÊ O MUNDO COMO NÓS {'>'} <h3 className='blueSliderText'> VEJA OS LANÇAMENTOS!</h3></h3>
-            <h3><h3 className='blueSliderText'>FRETE GRÁTIS</h3><h3 className='smallSliderText'>nas compras acima de R$350!</h3></h3>
+            <h3><h3 className='blueSliderText'>FRETE GRÁTIS</h3><h3 className='smallSliderText'>nas compras acima de R$100!</h3></h3>
         </Slider>
       </div>
 
       <nav>
           <div className='logoBox'>
-              <div className='shopTitle'><Link to={'/home'} style={{color:"#000000", textDecoration:"none"}}>SHOESHOP</Link></div>
-              <img alt='logo' src='https://www.logo.wine/a/logo/Converse_(shoe_company)/Converse_(shoe_company)-Icon-Logo.wine.svg' />  
+              <div className='shopTitle'><Link to={'/home'} style={{color:"#000000", textDecoration:"none"}}>BOOKSTORE</Link></div>
+              <FontAwesomeIcon icon={faBook} style={{padding:"0px 5px 0 0"}}/>
           </div>
 
           <div className='navTitleBox'>
-              <div className='navTitle'><a href={'/femininos'} className='navLink'>Feminino</a></div>
-              <div className='navTitle'><a href={'/masculinos'} className='navLink'>Masculinos</a></div>
-              <div className='navTitle'><a href={'/edicao-limitada'} className='navLink'>Edição Limitada</a></div>
+              <div className='navTitle'><a href={'/femininos'} className='navLink'>Ficcção Científica</a></div>
+              <div className='navTitle'><a href={'/masculinos'} className='navLink'>Psicologia</a></div>
+              <div className='navTitle'><a href={'/edicao-limitada'} className='navLink'>Romance</a></div>
               <div className='navTitle'><a href={'/promocoes'} className='navLink'>Promoções</a></div>
           </div>
 

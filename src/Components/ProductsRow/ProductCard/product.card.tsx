@@ -10,7 +10,6 @@ interface ProductCardProps {
     name: string,
     price: number,
     discountedPrice: number,
-    variations: string,
     productUrl: string,
 }
 
@@ -35,7 +34,6 @@ function ProductCard(props: ProductCardProps) {
                     </>
                 )}
             </span>
-            <span className="product-variations">{props.variations}</span>
         </div>
     )
 }

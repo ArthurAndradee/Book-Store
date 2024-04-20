@@ -38,8 +38,6 @@ const productRoutes = products.map(product => ({
             discountedPrice={product.discountedPrice}
             catchPhrase={product.catchPhrase}
             productUrl={product.productUrl} 
-            productSize={product.productSize}
-            variations={product.variations}
           />, 
 })); 
 

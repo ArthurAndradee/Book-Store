@@ -42,7 +42,6 @@ function SearchResult() {
                         name={product.name}
                         price={product.price}
                         discountedPrice={product.discountedPrice}
-                        variations={product.variations}
                         productUrl={product.productUrl}
                     />
                 ))}

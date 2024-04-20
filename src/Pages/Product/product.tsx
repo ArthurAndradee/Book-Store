@@ -15,17 +15,10 @@ interface ProductProps {
     imgLink: string
     imgAlt: string
     productUrl: string
-    productSize: string
-    variations: string
   }
 
 function ProductPage(props: ProductProps) {
-  const [ ,setSelectedSize] = useState<string>(props.productSize);
-  const [ ,setId] = useState<string>(props.productSize);
-
-  const handleSizeChange = (size: string) => {
-    setSelectedSize(size);
-  };
+  const [ ,setId] = useState<string>(props.id);
 
   const createId = (id: string) => {
     setId(id);
@@ -47,9 +40,6 @@ function ProductPage(props: ProductProps) {
                   imgLink={props.imgLink}
                   imgAlt={props.imgAlt} 
                   productUrl={props.productUrl}
-                  productSize={props.productSize}
-                  variations={props.variations}                
-                  onSizeChange={handleSizeChange}
                   createId={createId} 
                 />
             </div>
