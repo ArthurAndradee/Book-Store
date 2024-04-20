@@ -30,6 +30,7 @@ function ShippingPage(props: ShippingProps) {
     const {register, setFocus, setValue, handleSubmit} = useForm()
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [selectWarning, setSelectWarning] = useState(false)
+
     const [selectDestination, setSelectDestination] = useState(() => {
         const savedCount = localStorage.getItem('selectedShippingAddress');
         return savedCount !== null ? parseInt(savedCount) : -1;

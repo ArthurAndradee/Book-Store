@@ -59,18 +59,18 @@ function Checkout(props: DestinationInfo) {
                     {isShippingSelected ? (
                         <ShippingPage 
                         id={props.id}
-                        name={props.name} 
-                        surName={props.surName} 
-                        phoneNumber={props.phoneNumber} 
-                        cpf={props.cpf} 
-                        cep={props.cpf} 
-                        address={props.address} 
-                        addressNumber={props.addressNumber} 
-                        complement={props.complement} 
-                        neighbourhood={props.neighbourhood} 
-                        city={props.city} 
-                        uf={props.uf} 
-                        handleStateChange={handleStateChange}
+                        name={props.name}
+                        surName={props.surName}
+                        phoneNumber={props.phoneNumber}
+                        cpf={props.cpf}
+                        cep={props.cpf}
+                        address={props.address}
+                        addressNumber={props.addressNumber}
+                        complement={props.complement}
+                        neighbourhood={props.neighbourhood}
+                        city={props.city}
+                        uf={props.uf}
+                        handleStateChange={handleStateChange}                     
                         />
                     ) : (
                         <CardPage />
