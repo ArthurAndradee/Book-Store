@@ -1,0 +1,22 @@
+.search-input-container {
+    padding-top: 117px;
+    padding-bottom: 30px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 200%;
+
+    border: none;
+    outline: none;
+
+    padding-bottom: 5px;
+    border-bottom: 5px solid #dadada;
+}
+
+@media only screen and (min-width: 1366px) {
+    .search-container, .search-input-container {
+        width: 1366px;
+        margin: auto;
+    }
+}

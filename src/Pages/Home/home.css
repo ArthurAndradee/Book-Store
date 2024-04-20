@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@media only screen and (min-width: 1366px) {
+    main {
+        width: 1366px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #ad-2, #ad-3, #ad-5, #ad-6{
+        display: none;
+    }
+
+    #ad-7, .large-ad-box {
+        width: 200px;
+    }
+  }
+
+.body {
+    overflow-y: hidden;
+}
+
+.ads-container {
+    margin-top: 110px;
+    font-family: "Metrophobic", sans-serif;
+}
+
+.adBox, .adBox-2 {
+    height: 480px;
+
+    display: flex;
+}
+
+.background-img {
+    background-size: cover;
+    display: inline-block;
+}
+
+
+.ad-title {
+    padding-top: 150px;
+    font-weight: 800;
+}
+
+.ad-description {
+    padding-top: 36px;
+    padding-bottom: 15px;
+
+    width: 350px;
+    
+    font-size: 15px;
+}
+
+.ad-buyButton, .large-ad-buyButton {
+    padding-top: 2%;
+
+    border: 2px solid #000000;
+    
+    font-weight: 700;
+    text-align: center;
+
+    
+    background-color: transparent;
+}
+
+.ad-buyButton {
+    padding-bottom: 6%;
+    height: 30px;
+    width: 165px;
+}
+
+.ad-buy-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.ad-buyButton:hover, .large-ad-buyButton:hover {
+    .ad-buy-link {    
+        color: #FFFFFF;
+    }
+
+    cursor: pointer;
+    
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.background-text * {
+    margin: auto;
+    text-align: center;
+}
+
+#ad-1 {
+    width: 580px;
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01) ), url('https://i.imgur.com/qjiG1Yz.png');
+}
+
+#ad-2 {
+    width: 408px;
+    
+    background-image: url(https://i.imgur.com/gA6WUtt.jpeg);
+}
+
+#ad-3 {
+    width: 381px;
+    
+    background-image: url(https://i.imgur.com/Xl7pf3g.png);
+}
+
+.adBox-2 {
+    margin-top: 10px;
+}
+
+#ad-4 {
+    width: 650px;
+    background-image: url(https://i.imgur.com/uUEoZrB.png);
+}
+
+#ad-5 {
+    width: 544px;
+    background-image: url(https://i.imgur.com/Rt9HMDU.gif);
+}
+
+#ad-6 {
+    width: 361px;
+    background-image: url(https://i.imgur.com/tGUki0R.gif);
+}
+
+/*
+----------------LARGE ADS styling---------------- 
+*/
+
+#ad-7 {
+    height: 600px;
+    width: 100%;
+
+    background-image: url(https://i.imgur.com/bfCQKTX.png);
+}
+
+.large-ad-box {
+    height: 300px;
+    width: 500px;
+
+    font-size: 35px;
+
+    margin-left: 880px;
+    margin-top: 200px;
+
+    color: #000000;
+}
+
+.large-ad-buyButton {
+    height:60px;
+    width:320px;
+
+    margin-top:20px;
+    padding-bottom: 13%;
+}
+
+@media only screen and (max-width: 700px) {
+    #ad-7, .large-ad-box {
+        width: 100vw;
+        margin: 30px 0 0 0;
+        padding-top: 50px;
+    }
+  }

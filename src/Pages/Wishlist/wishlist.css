@@ -1,0 +1,14 @@
+.category-products-container {
+    padding-top: 117px;
+}
+
+.category-products {
+    display: grid;
+}
+
+@media only screen and (min-width: 1366px) {
+    .category-products-container {
+        width: 1366px;
+        margin: auto;
+    }
+}

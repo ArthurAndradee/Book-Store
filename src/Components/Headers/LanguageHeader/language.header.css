@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+.App {
+  height: 60px;
+  width: 100%;
+
+  padding-top: 10px;
+
+  background-color: white;
+}
+
+.logo-box {
+  margin-left: 30px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+
+  color: black;
+  background-color: white
+}
+
+.logo-box img {
+  height: 20px;
+  width: 20px;
+
+  margin: 0;
+
+  background-color:1white
+}
+
+.logo-box div {
+  width: 90px;
+  
+  margin-right: 2px;
+
+  background-color: white;
+
+  font-family: "Metrophobic", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}

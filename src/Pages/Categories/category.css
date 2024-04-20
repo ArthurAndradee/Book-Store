@@ -1,0 +1,25 @@
+.category-products-row-title {
+    margin: 0 0 30px 0px;
+    font-size: 38px;
+}
+
+.category-products {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+#sort {
+  box-shadow: none;
+  border-color: #dadada;
+}
+
+@media only screen and (min-width: 1366px) {
+   .category-products-row-container {
+     width: 1366px;
+     margin: auto;
+   }
+ }

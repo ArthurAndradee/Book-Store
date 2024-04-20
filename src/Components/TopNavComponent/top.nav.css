@@ -1,0 +1,41 @@
+@media (min-width: 1366px) {
+    .home-nav {
+        width: 1366px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .home-nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1406px) {
+    .home-nav {
+        padding-left: 10px;
+    }
+}
+
+.home-nav {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 118px;
+    
+    font-size: 12px;
+}
+
+.home-link {
+    color: #a4a4a4;
+}
+
+.home-link:hover {
+    text-decoration: underline  ;
+}
+
+#product-name {
+    border-top: 2px solid transparent;
+    font-size: 12px;
+}

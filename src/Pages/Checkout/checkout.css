@@ -1,0 +1,44 @@
+.checkout-section {
+    padding-top: 117px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-nav {
+    height: 30px;
+    width: 100% !important;
+    
+    display:flex;
+    
+    margin-bottom: 15px;
+}
+
+.checkout-sub, .payment {
+    cursor: pointer;
+    display: flex;
+}
+
+.checkout-sub:hover, .payment:hover {
+    text-decoration: underline;
+}
+
+.checkout-sub {
+    margin-right: 5%;
+}
+
+.round-number {
+    background-color: #000000;
+    color: #FFFFFF;
+
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+}
+
+@media (min-width: 1366px) {
+    .checkout-section {
+        width: 1366px;
+        margin: auto;
+    }
+}

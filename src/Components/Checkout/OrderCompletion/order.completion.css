@@ -1,0 +1,32 @@
+@media only screen and (min-width: 1266px) {
+    .order-section {
+        width: 1070px;
+        margin: auto;
+    }
+}
+
+.order-section {
+    margin-top: 118px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.order-title {
+    height: 150px;
+
+    text-align: center;
+
+    background-color: #eeeeee;
+}
+
+#comeback-link {
+    text-decoration: none;
+    color: #838383;
+
+    cursor: pointer;
+}
+
+#comeback-link:hover {
+    text-decoration: underline;
+}

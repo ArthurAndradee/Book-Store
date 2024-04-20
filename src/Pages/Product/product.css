@@ -1,0 +1,47 @@
+@media (min-width: 1366px) {
+    .content {
+        width: 1366px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 600px) {
+    .content, .home-nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 1406px) {
+    .home-nav {
+        padding-left: 10px;
+    }
+}
+
+.home-nav {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 118px;
+
+    font-size: 12px;
+}
+
+.home-link {
+    margin-right: 15px;
+    color: #a4a4a4;
+}
+
+.home-link:hover {
+    text-decoration: underline  ;
+}
+
+.content {
+    margin-top: 17px;
+}
+
+#product-name {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}

@@ -1,0 +1,17 @@
+.item-list {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+
+    margin-top: 15px;
+}
+
+.product-remove {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.product-remove:hover {
+    text-decoration: underline;
+}
