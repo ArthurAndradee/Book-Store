@@ -6,6 +6,14 @@ function CartItem() {
     const {cartProducts} = useLocalStorage()
     const {handleRemoveProductFromCart} = useLocalStorage()
 
+    const truncateText = (text: string, maxLength: number) => {
+        if (text.length > maxLength) {
+            return text.substring(0, maxLength) + '...';
+        } else {
+            return text;
+        }
+    };
+
     if(!cartProducts || cartProducts.length === 0) {
         return (
             <div className='p-3'>
@@ -34,6 +42,9 @@ function CartItem() {
                                 <Link to={`/products/${product.productUrl}`}>
                                     <div className='item-name'>{product.name}</div>
                                 </Link>
+                                <div className='item-specifications'>
+                                    <div className='item-variation'><b>Sinopse: </b> {truncateText(product.overview, 100)}</div>
+                                </div>
                             </div>
                         </div>
                         <div className='items-handle'>
