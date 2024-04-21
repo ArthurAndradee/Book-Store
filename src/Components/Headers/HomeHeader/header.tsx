@@ -59,7 +59,7 @@ function Header() {
           <div className='navTitleBox'>
               <div className='navTitle'><a href={'/ficcao-cientifica'} className='navLink'>Ficcção Científica</a></div>
               <div className='navTitle'><a href={'/romance'} className='navLink'>Romance</a></div>
-              <div className='navTitle'><a href={'/nao-ficcao'} className='navLink'>Não-Ficcção</a></div>
+              <div className='navTitle'><a href={'/nao-ficcao'} className='navLink'>Não-Ficção</a></div>
               <div className='navTitle'><a href={'/promocoes'} className='navLink'>Promoções</a></div>
           </div>
 
