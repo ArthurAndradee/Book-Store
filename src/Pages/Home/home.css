@@ -41,6 +41,9 @@
 .ad-title {
     padding-top: 150px;
     font-weight: 800;
+
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .ad-description {
@@ -48,14 +51,15 @@
     padding-bottom: 15px;
 
     width: 350px;
-    
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 4px;
     font-size: 15px;
 }
 
 .ad-buyButton, .large-ad-buyButton {
     padding-top: 2%;
 
-    border: 2px solid #000000;
+    border: 2px solid #adadad;
     
     font-weight: 700;
     text-align: center;
@@ -68,10 +72,13 @@
     padding-bottom: 6%;
     height: 30px;
     width: 165px;
+
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 4px;
 }
 
 .ad-buy-link {
-    color: #000000;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -82,8 +89,7 @@
 
     cursor: pointer;
     
-    color: #FFFFFF;
-    background-color: #000000;
+    background-color: #FFFFFF
 }
 
 .background-text * {
@@ -94,19 +100,19 @@
 #ad-1 {
     width: 580px;
     
-    background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01) ), url('https://i.imgur.com/qjiG1Yz.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01) ), url('https://portalpopline.com.br/wp-content/uploads/2022/06/amor-e-gelato.jpg');
 }
 
 #ad-2 {
     width: 408px;
     
-    background-image: url(https://i.imgur.com/gA6WUtt.jpeg);
+    background-image: url(https://m.media-amazon.com/images/I/81EE1CAUoEL._AC_UF1000,1000_QL80_.jpg);
 }
 
 #ad-3 {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfBIuCVEoHbmJ05XNT-d-5MTif-KjmE4EirNt1v7D-WlG76SVkw6KT0hQP2iR7x3GKnxw3xrrCSf9xMeKTstLvLXPqZ50OIdOzgPvw8gd2jrI89JncfXOw4HYTUzSi9p0uDatUH94-cw4/s1600/AEG3.jpg);
     width: 381px;
     
-    background-image: url(https://i.imgur.com/Xl7pf3g.png);
 }
 
 .adBox-2 {
@@ -115,17 +121,17 @@
 
 #ad-4 {
     width: 650px;
-    background-image: url(https://i.imgur.com/uUEoZrB.png);
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/027/686/242/large/kaisia-menzies-battleroyaleillus-orig.jpg?1592254445);
 }
 
 #ad-5 {
     width: 544px;
-    background-image: url(https://i.imgur.com/Rt9HMDU.gif);
+    background-image: url(https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1331235272i/57891.jpg);
 }
 
 #ad-6 {
     width: 361px;
-    background-image: url(https://i.imgur.com/tGUki0R.gif);
+    background-image: url(https://pictures.abebooks.com/isbn/9783453437210-us.jpg);
 }
 
 /*
@@ -133,22 +139,24 @@
 */
 
 #ad-7 {
-    height: 600px;
+    height: 700px;
     width: 100%;
 
-    background-image: url(https://i.imgur.com/bfCQKTX.png);
+    background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*XaRAPgBeKaYxMr7G0V1FIw.jpeg);
 }
 
 .large-ad-box {
-    height: 300px;
+    height: 340px;
     width: 500px;
 
     font-size: 35px;
-
-    margin-left: 880px;
+    
     margin-top: 200px;
 
     color: #000000;
+    
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 .large-ad-buyButton {

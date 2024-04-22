@@ -16,9 +16,9 @@ function HomePage() {
 
                     <section className='adBox'>
                         <div className="background-img background-text" id="ad-1">
-                            <h2 className="ad-title">Converse X Martine Ali</h2>
-                            <p className="ad-description">Explore a fusão única de elementos clássicos e modernos nessa colaboração.</p>
-                            <Link to={'/products/converse-x-martine-ali-chuck-70-xhi-preto'} className="ad-buy-link">
+                            <h2 className="ad-title">Amor & Gelato</h2>
+                            <p className="ad-description">Descubra o doce segredo do amor em cada colher de gelato - uma experiência que derrete corações e encanta paladares</p>
+                            <Link to={'/products/amor-&-gelato-Jenna-Evans-Welch'} className="ad-buy-link">
                                 <div className="ad-buyButton">
                                     COMPRE AGORA
                                 </div>
@@ -30,9 +30,9 @@ function HomePage() {
                     
                     <section className='adBox-2'>
                         <div className="background-img background-text" id="ad-4">
-                            <h2 className="ad-title">Modern Lift Chrome Queen</h2>
-                            <p className="ad-description">Libere seu lado punk no estilo assinado Chuck Taylor. </p>
-                            <Link to={'/products/chuck-taylor-all-star-modern-lift-chrome-queen-preto'} className="ad-buy-link">
+                            <h2 className="ad-title">Battle Royale</h2>
+                            <p className="ad-description">Explore o thriller implacável e a reflexão social intensa em 'Battle Royale' - uma leitura que não pode ser ignorada.</p>
+                            <Link to={'/products/battle-royale-Koushun-Takami'} className="ad-buy-link">
                                 <div className="ad-buyButton">
                                     COMPRE AGORA
                                 </div>
@@ -50,10 +50,10 @@ function HomePage() {
 
                     <section className="background-img background-text" id="ad-7">
                         <div className="large-ad-box">
-                            <h2>ONE STAR</h2>
-                            <p className="ad-description">O clássico renovado: a tradição do skate dos anos 90, agora com tecnologia de amortecimento CX.</p>
+                            <h2>FAHRENHEIT 451</h2>
+                            <p className="ad-description">Queime as ideias, salve o futuro: mergulhe no mundo incandescente de Fahrenheit 451 e descubra a liberdade proibida.</p>
                             <div className="large-ad-buyButton">
-                                <Link to={'/products/one-star-pro-cano-baixo-normal-preto'} className="ad-buy-link">COMPRE AGORA</Link>
+                                <Link to={'/products/Fahrenheit-451-Ray-Bradbury'} className="ad-buy-link">COMPRE AGORA</Link>
                             </div>
                         </div>
                     </section>

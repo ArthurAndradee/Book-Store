@@ -288,16 +288,4 @@ export const products =
             productUrl: 'vinte-mil-leguas-submarinas-julio-verne',
             quantity: 1
         },
-        {
-            id: '',
-            imgAlt: '',
-            imgLink: '',
-            name: '',
-            type: '',
-            overview: '',
-            price: 0,
-            discountedPrice: 0,
-            productUrl: '',
-            quantity: 1
-        },
     ]
