@@ -10,6 +10,7 @@ export const products =
             price: 9.90,
             discountedPrice: 0,
             productUrl: 'arte-guerra-Sun-Tzu',
+            quantity: 1
         },
         {
             id: 'id',
@@ -21,6 +22,7 @@ export const products =
             price: 19.90,
             discountedPrice: 0,
             productUrl: '1984-George-Owell', 
+            quantity: 1
         },
         {
             id: 'id',
@@ -32,6 +34,7 @@ export const products =
             price: 56.99,
             discountedPrice: 39.99,
             productUrl: 'Rápido-devagar-Daniel-Kahneman',
+            quantity: 1
         },
         {
             id: 'id',
@@ -43,6 +46,7 @@ export const products =
             price: 59.90,
             discountedPrice: 35.62,
             productUrl: 'Fahrenheit-451-Ray-Bradbury',
+            quantity: 1
         },
         {
             id: 'id',
@@ -54,6 +58,7 @@ export const products =
             price: 89.90,
             discountedPrice: 0,
             productUrl: 'trilogia-50-tons-de-cinza',
+            quantity: 1
         },
         {
             id: 'id',
@@ -65,6 +70,7 @@ export const products =
             price: 64.80,
             discountedPrice: 0,
             productUrl: 'o-codigo-da-vinci',
+            quantity: 1
         },
         {
             id: '',
@@ -75,7 +81,8 @@ export const products =
             overview: '“O FIM DA TERRA NÃO SERÁ O NOSSO FIM”Do aclamado cineasta Christopher Nolan, diretor de A origem (Inception) e da trilogia Batman – O Cavaleiro das Trevas (Batman - The Dark Knight), INTERESTELAR é a crônica de um grupo de exploradores que se aproveita de um recém-descoberto buraco de minhoca para ultrapassar os limites das viagens espaciais tripuladas e assim conquistar as grandes distâncias de uma jornada interestelar. Enquanto viajam, estão em risco o destino do planeta... Terra...e o futuro da raça humana.O livro INTERESTELAR consegue explicar com clareza a teoria do físico Kip Thorne, que inspirou esta incrível história de ficção científica. Não é por nada que o filme, estrelado por Matthew McConaughey e Anne Hathaway, tornou-se imediatamente um cult mundial. No entanto, graças ao livro, com suas 268 páginas, as complexas e sofisticadas teorias desenvolvidas por Kip Thorne ficam accessíveis à maioria dos leitores. O filme, por sua vez, até pela sua própria linguagem e natureza, não consegue "traduzir" toda a profundidade e dimensão da história. Um livro profundo e interessante, para aqueles que viram o filme e para os que se preocupam com o futuro da humanidade.',
             price: 59.90,
             discountedPrice: 51.00,
-            productUrl: 'interestelar-Cristopher-Nolan'
+            productUrl: 'interestelar-Cristopher-Nolan',
+            quantity: 1
         },
         {
             id: '',
@@ -86,7 +93,8 @@ export const products =
             overview: 'Em 1997, o jornalista e escritor japonês Koushun Takami sofreu uma grande decepção. O manuscrito de seu romance de estreia havia chegado à final do Japan Grand Prix Horror Novel, concurso literário voltado para a ficção de terror, mas acabou preterido. Não era para menos. Embora habituado a tramas assustadoras, o júri se alarmou com a história do jogo macabro entre adolescentes de uma mesma turma escolar que, confinados numa ilha, têm de matar uns aos outros até que reste apenas um sobrevivente. Detalhe: o organizador da sangrenta disputa é o próprio Estado japonês, imaginado pelo autor como uma totalitária República da Grande Ásia Oriental.',
             price: 69.50,
             discountedPrice: 0,
-            productUrl: 'battle-royale-Koushun-Takami'
+            productUrl: 'battle-royale-Koushun-Takami',
+            quantity: 1
         },
         {
             id: '',
@@ -97,7 +105,8 @@ export const products =
             overview: 'Hazel é uma paciente terminal. Ainda que, por um milagre da medicina, seu tumor tenha encolhido bastante ― o que lhe dá a promessa de viver mais alguns anos ―, o último capítulo de sua história foi escrito no momento do diagnóstico. Mas em todo bom enredo há uma reviravolta, e a de Hazel se chama Augustus Waters, um garoto bonito que certo dia aparece no Grupo de Apoio a Crianças com Câncer. Juntos, os dois vão preencher o pequeno infinito das páginas em branco de suas vidas. Inspirador, corajoso, irreverente e brutal, A culpa é das estrelas é a obra mais ambiciosa e emocionante de John Green, sobre a alegria e a tragédia que é viver e amar.',
             price: 44.99,
             discountedPrice: 0,
-            productUrl: 'a-culpa-e-das-estrelas-john-green'
+            productUrl: 'a-culpa-e-das-estrelas-john-green',
+            quantity: 1
         },
         {
             id: '',
@@ -108,7 +117,8 @@ export const products =
             overview: "Depois da morte da mãe, Lina fica com a missão de realizar um último pedido: ir até a Itália para conhecer o pai. Do dia para a noite, ela se vê na famosa paisagem da Toscana, morando em uma casa localizada no mesmo terreno de um cemitério memorial de soldados americanos da Segunda Guerra Mundial, com um homem que nunca tinha ouvido falar. Apesar das belezas arquitetônicas, da história da cidade e das comidas maravilhosas, o que Lina mais quer é ir embora correndo dali. Mas as coisas começam a mudar quando ela recebe um antigo diário da mãe. Nele, a menina embarca em uma misteriosa história de amor, que pode explicar suas próprias origens. No meio desse turbilhão de emoções, Lina ainda conhece Ren e Thomas, dois meninos lindos que vão mexer ainda mais com seu coração. Uma trajetória que fará Lina descobrir o amor, a si mesma e também aprender a lidar com a perda. Amor & gelato é uma deliciosa viagem pelos mais românticos pontos turísticos italianos, com direito a tudo de mais intenso que o lugar tem a oferecer: desde paixões até corações partidos.",
             price: 59.90,
             discountedPrice: 41.18,
-            productUrl: 'amor-&-gelato-Jenna-Evans-Welch'
+            productUrl: 'amor-&-gelato-Jenna-Evans-Welch',
+            quantity: 1
         },
         {
             id: '',
@@ -119,7 +129,8 @@ export const products =
             overview: 'Mais do que revolucionar a Psicologia e contribuir para as Neurociências, o conhecimento sistematizado por Sigmund Freud em suas obras revelou um estilo de escrita peculiar, que muito diz sobre o próprio funcionamento da mente proposto por sua Psicanálise. A fala do sujeito é o centro de suas teorias e do trabalho psicanalítico, revelando questões do inconsciente. Ler Freud, então, não é algo que deva estar circunscrito a psicanalistas e psicólogos. A leitura é interessante aos que buscam entender como se dá o uso da própria linguagem. Os caminhos para esse entendimento se revelam à luz da compreensão de diversas patologias mentais estudadas pelo Pai da Psicanálise (e de conceitos já amplamente difundidos, perfeitamente acessíveis nos textos originais de Freud)',
             price: 62.25,
             discountedPrice: 49.80,
-            productUrl: 'a-interpretacao-dos-sonhos-Sigmund-Freud'
+            productUrl: 'a-interpretacao-dos-sonhos-Sigmund-Freud',
+            quantity: 1
         },
         {
             id: '',
@@ -130,7 +141,8 @@ export const products =
             overview: 'Um dos trabalhos filosóficos mais lidos e influentes de todos os tempos, Assim falou Zaratustra talvez deva sua extraordinária fortuna ao seu caráter híbrido: filosofia, religião e literatura nele se juntam de maneira complexa e atraente. Ao publicar Além do bem e do mal, livro imediatamente posterior, Nietzsche revelou ao amigo Jacob Burckhardt que a nova publicação continha “as mesmas coisas que havia dito antes pela boca de Zaratustra, mas de modo diferente, bem diferente”. De fato, o leitor reconhecerá, na linguagem metafórica e alegórica dos discursos e diálogos de Zaratustra, muitas das ideias que seriam desenvolvidas em prosa reflexiva nas obras posteriores ― ou que já haviam sido abordadas em Aurora e A gaia ciência, livros aos quais ele chegou a se referir como “comentários ao Zaratustra antes que ele aparecesse”',
             price: 29.90,
             discountedPrice: 0,
-            productUrl: 'assim-falou-zaratustra-Friedrich-Nietzsche'
+            productUrl: 'assim-falou-zaratustra-Friedrich-Nietzsche',
+            quantity: 1
         },
         {
             id: '',
@@ -141,7 +153,8 @@ export const products =
             overview: 'Um bestseller, com 440 páginas e 251 magníficas ilustrações do mestre Otniel Araújo, agora na sua 6a. Edição comemorativa revista, atualizada e expandida, e em CAPA DURA com fino acabamento, e pela Heziom em co-edição com a Kovalpress – A Editora Oficial do Design Inteligente. Uma obra imperdível sobre a questão maior: “De onde viemos e para onde vamos?”. Em Fomos planejados: a maior descoberta científica de todos os tempos, Eberlin avalia o que a ciência de fato sabe sobre o Big Bang, a explosão do “nada” que fez “o tudo”, sobre a “sopa de Miller”, que teria gerado o “micróbio primordial”, e então sua transformação “a la Darwin” em uma microbiologista. Outra hipótese, porém, é debatida: a ciência descobriu que fomos feitos prontos, por um designer inteligentíssimo. Será? Acaso ou design? Leia esse compêndio de evidências e decida, pois é a sua origem que está em jogo!',
             price: 69.44,
             discountedPrice: 65.97,
-            productUrl: 'fomos-planejados-marco-eberlin'
+            productUrl: 'fomos-planejados-marco-eberlin',
+            quantity: 1
         },
         {
             id: '',
@@ -152,7 +165,8 @@ export const products =
             overview: 'A força da narrativa desta adolescente — que mesmo com sua pouca experiência de vida foi capaz de escrever um testemunho de humanidade e tolerância — a tornaria uma das figuras mais conhecidas do século xx. Agora, seis décadas após ter sido escrito, o diário é finalmente publicado na íntegra. A nova edição traz um caderno de fotos, além de vários trechos inéditos.',
             price: 39.90,
             discountedPrice: 0,
-            productUrl: 'o-diario-de-anne-frank'
+            productUrl: 'o-diario-de-anne-frank',
+            quantity: 1
         },
         {
             id: '',
@@ -163,7 +177,8 @@ export const products =
             overview: 'Você sente que a educação tradicional não tem nada a ver com a vida e que a escola não está preparando você para o mundo real? Se você respondeu “sim” a essas perguntas, então este livro foi feito para você! Quando criança, Robert Kiyosaki não foi um dos melhores alunos. Apesar de inteligente, ele aprendia de forma diferente daquela esperada pelos professores. Então, Robert encontrou um mentor que lhe ensinou muitas lições sobre dinheiro e investimentos ― e teve tanto êxito que pôde se aposentar antes de chegar aos cinquenta anos.',
             price: 64.99,
             discountedPrice: 0,
-            productUrl: 'pai-rico-pai-pobre-robert-t-kiyosaki'
+            productUrl: 'pai-rico-pai-pobre-robert-t-kiyosaki',
+            quantity: 1
         },
         {
             id: '',
@@ -174,7 +189,8 @@ export const products =
             overview: 'O planeta Terra tem cerca de 4,5 bilhões de anos. Numa fração ínfima desse tempo, uma espécie entre incontáveis outras o dominou: nós, humanos. Somos os animais mais evoluídos e mais destrutivos que jamais viveram.Sapiens é a obra-prima de Yuval Noah Harari e o consagrou como um dos pensadores mais brilhantes da atualidade. Num feito surpreendente, que já fez deste livro um clássico contemporâneo, o historiador israelense aplica uma fascinante narrativa histórica a todas as instâncias do percurso humano sobre a Terra. Da Idade da Pedra ao Vale do Silício, temos aqui uma visão ampla e crítica da jornada em que deixamos de ser meros símios para nos tornarmos os governantes do mundo.Harari se vale de uma abordagem multidisciplinar que preenche as lacunas entre história, biologia, filosofia e economia, e, com uma perspectiva macro e micro, analisa não apenas os grandes acontecimentos, mas também as mudanças mais sutis notadas pelos indivíduos.',
             price: 54.99,
             discountedPrice: 0,
-            productUrl: 'sapiens-uma-breve-historia-da-humanidade-jorio-dauster'
+            productUrl: 'sapiens-uma-breve-historia-da-humanidade-jorio-dauster',
+            quantity: 1
         },
         {
             id: '',
@@ -185,7 +201,8 @@ export const products =
             overview: 'Durante uma viagem de fim de semana, a filha mais nova de Mack Allen Phillips é raptada e evidências de que ela foi brutalmente assassinada são encontradas numa velha cabana. Após quatro anos vivendo numa tristeza profunda causada pela culpa e pela saudade da menina, Mack recebe um estranho bilhete, aparentemente escrito por Deus, convidando-o a voltar à cabana onde acontecera a tragédia. Apesar de desconfiado, ele vai ao local numa tarde de inverno e adentra passo a passo o cenário de seu mais terrível pesadelo. Mas o que ele encontra lá muda o seu destino para sempre. Em um mundo cruel e injusto, A cabana levanta um questionamento atemporal: se Deus é tão poderoso, por que não faz nada para amenizar nosso sofrimento? As respostas que Mack encontra vão surpreender você e podem transformar sua vida de maneira tão profunda quanto transformaram a dele. Você vai querer partilhar esse livro com todas as pessoas que ama.',
             price: 54.90,
             discountedPrice: 0,
-            productUrl: 'a-cabana-william-p-young'
+            productUrl: 'a-cabana-william-p-young',
+            quantity: 1
         },
         {
             id: '',
@@ -196,7 +213,8 @@ export const products =
             overview: 'Aos 35 anos, Nora Seed é uma mulher cheia de talentos e poucas conquistas. Arrependida das escolhas que fez no passado, ela vive se perguntando o que poderia ter acontecido caso tivesse vivido de maneira diferente. Após ser demitida e seu gato ser atropelado, Nora vê pouco sentido em sua existência e decide colocar um ponto final em tudo. Porém, quando se vê na Biblioteca da Meia-Noite, Nora ganha uma oportunidade única de viver todas as vidas que poderia ter vivido. Neste lugar entre a vida e a morte, e graças à ajuda de uma velha amiga, Nora pode, finalmente, se mudar para a Austrália, reatar relacionamentos antigos – ou começar outros –, ser uma estrela do rock, uma glaciologista, uma nadadora olímpica... enfim, as opções são infinitas. Mas será que alguma dessas outras vidas é realmente melhor do que a que ela já tem? Em A Biblioteca da Meia-Noite , Nora Seed se vê exatamente na situação pela qual todos gostaríamos de poder passar: voltar no tempo e desfazer algo de que nos arrependemos. Diante dessa possibilidade, Nora faz um mergulho interior viajando pelos livros da Biblioteca da Meia-Noite até entender o que é verdadeiramente importante na vida e o que faz, de fato, com que ela valha a pena ser vivida.',
             price: 59.99,
             discountedPrice: 39.09,
-            productUrl: 'a-biblioteca-da-meia-noite-matt-haig'
+            productUrl: 'a-biblioteca-da-meia-noite-matt-haig',
+            quantity: 1
         },
         {
             id: '',
@@ -207,7 +225,8 @@ export const products =
             overview: 'Em É Assim Que Acaba , Colleen Hoover nos apresenta Lily, uma jovem que se mudou de uma cidadezinha do Maine para Boston, se formou em marketing e abriu a própria floricultura. E é em um dos terraços de Boston que ela conhece Ryle, um neurocirurgião confiante, teimoso e talvez até um pouco arrogante, com uma grande aversão a relacionamentos, mas que se sente muito atraído por ela. Quando os dois se apaixonam, Lily se vê no meio de um relacionamento turbulento que não é o que ela esperava. Mas será que ela conseguirá enxergar isso, por mais doloroso que seja? É assim que acaba é uma narrativa poderosa sobre a força necessária para fazer as escolhas certas nas situações mais difíceis. Considerada a obra mais pessoal de Hoover, o livro aborda sem medo alguns tabus da sociedade para explorar a complexidade das relações tóxicas, e como o amor e o abuso muitas vezes coexistem em uma confusão de sentimentos.',
             price: 52.20,
             discountedPrice: 0,
-            productUrl: 'e-assim-que-acaba-priscila-cartao'
+            productUrl: 'e-assim-que-acaba-priscila-cartao',
+            quantity: 1
         },
         {
             id: '',
@@ -218,7 +237,8 @@ export const products =
             overview: 'Lily Bloom continua administrando uma floricultura. Seu ex-marido abusivo, Ryle Kincaid, ainda é um    cirurgião. Mas agora os dois estão oficialmente divorciados e dividem a guarda da filha, Emerson.Quando Lily esbarra em Atlas ― com quem não fala há quase dois anos ―, parece que finalmente chegou o momento de retomar o relacionamento da adolescência, já que ele também está solteiro e parece retribuir os sentimentos de Lily. Mas apesar de divorciada, Lily não está exatamente livre de Ryle. Culpando Atlas pelo fim de seu casamento, Ryle não está nada disposto a aceitar o novo relacionamento de Lily, ainda mais com Atlas, o último homem que aceitaria ver perto de sua filha e da ex-esposa.Alternando entre os pontos de vista de Atlas e Lily, É assim que começa retoma logo após o epílogo de É assim que acaba . Revelando mais sobre o passado de Atlas e acompanhando a jornada de Lily para abraçar a sua segunda chance, no amor enquanto lida com um ex-marido ciumento, É assim que começa prova que ninguém entrega uma leitura mais emocionante do que Colleen Hoover.',
             price: 59.90,
             discountedPrice: 44.92,
-            productUrl: 'e-assim-que-comeca-priscila-cartao'
+            productUrl: 'e-assim-que-comeca-priscila-cartao',
+            quantity: 1
         },
         {
             id: '',
@@ -229,7 +249,8 @@ export const products =
             overview: 'CONTÉM O CONTO " A QUEDA DA CASA DE USHER" QUE INSPIROU A SÉRIE DA NETFLIX. ONDE O HORROR SE MANIFESTA? Para Edgar Allan Poe, se manifesta na morte em suas mais diversas facetas. Poe tematiza o que de mais tenebroso a precede: a ira, a tortura, a vingança, o engano, a ganância. Toda essa aura sepulcral perpassa as obras selecionadas para esta edição em cada dura, com fitilho e ilustrações originais de Gustave Doré. Da tradução do poeta português, Fernando Pessoa, para o cadenciado poema “O corvo”, até a sufocante e angustiante atmosfera da residência do conto “A queda da casa de Usher”, passando ainda pela presença do primeiro detetive criminal na história da literatura em “Os assassinatos da Rua Morgue”, todas essas obras, de alguma forma, cedem morbidamente à envergadura de Poe e convergem, submissas, ao gênio macabro de seu criador e mestre do terror.',
             price: 49.90,
             discountedPrice: 24.95,
-            productUrl: 'o-corvo-e-outras-historias-edgar-allan-poe'
+            productUrl: 'o-corvo-e-outras-historias-edgar-allan-poe',
+            quantity: 1
         },
         {
             id: '',
@@ -240,7 +261,8 @@ export const products =
             overview: 'O médico e o monstro (The Strange Case of Dr. Jekyll and Mr. Hyde) é um clássico de diversas maneiras: forma, conteúdo, caracterização. É precursor ― ao lado de Frankenstein, por exemplo ― do gênero da ficção científica. O estereótipo que conhecemos nos dias de hoje como “cientistas loucos” certamente bebe na fonte dos doutores Frankenstein e Jekyll. Lançado em 1886, o livro aborda a questão do bem e do mal, trazendo para a Literatura um debate sobre o subconsciente, tópico que se iniciava na época suscitado pelo gérmen do que se corporificaria como teorias psicanalíticas. Poucos anos depois de sua publicação, os estudos de Sigmund Freud revelaram a existência de uma face oculta da mente ― há, de fato, um Sr. Hyde que se esconde atrás de cada Dr. Jekyll. O romance é um exemplo proeminente de ficção vitoriana. O clássico foi, seguramente, um dos livros mais adaptados para o teatro, cinema e televisão em todo o mundo. A obra obteve tamanho sucesso que até os dias atuais o termo “Jekyll e Hyde” é utilizado pela sociedade científica como termo para designar desordens patológicas de cisão ou duplicação da personalidade. Para acompanhar o romance, selecionamos um dos maiores contos de Robert Stevenson que também trata da temática da dualidade e do maniqueísmo do ser humano: Markheim. O terror e a dúvida moram lado a lado e só os corajosos conseguem se voltar para o seu próprio interior e contemplar o monstro que lá habita.',
             price: 39.90,
             discountedPrice: 0,
-            productUrl: 'o-medico-e-o-monsstro-o-estranho-caso-do-dr-keyll-e-do-sr-hyde-robert-stevenson'
+            productUrl: 'o-medico-e-o-monsstro-o-estranho-caso-do-dr-keyll-e-do-sr-hyde-robert-stevenson',
+            quantity: 1
         },
         {
             id: '',
@@ -251,7 +273,8 @@ export const products =
             overview: 'Uma estonteante mistura de aventura e misticismo, ecologia e política, este romance ganhador dos prêmios Hugo e Nebula deu início a uma das mais épicas histórias de toda a ficção científica. Duna é um triunfo da imaginação, que influenciará a literatura para sempre.Esta edição inédita, com introdução de Neil Gaiman, apresenta ao leitor o universo fantástico criado por Herbert e que será adaptado ao cinema por Denis Villeneuve, diretor de A chegada e de Blade Runner 2049.',
             price: 99.90,
             discountedPrice: 0,
-            productUrl: 'duna-livro-1-frank-herbert'
+            productUrl: 'duna-livro-1-frank-herbert',
+            quantity: 1
         },
         {
             id: '',
@@ -262,7 +285,8 @@ export const products =
             overview: 'Nesta aventura, Verne constrói um submarino ultramoderno para a época (1866), o Náutilus. Nele, o capitão Nemo e sua tripulação cortam relações com a humidade e partem para uma aventura marítima, já que para a sobrevivência precisam apenas da eletricidade obtida na imensidade do mar.',
             price: 34.90,
             discountedPrice: 17.95,
-            productUrl: 'vinte-mil-leguas-submarinas-julio-verne'
+            productUrl: 'vinte-mil-leguas-submarinas-julio-verne',
+            quantity: 1
         },
         {
             id: '',
@@ -273,6 +297,7 @@ export const products =
             overview: '',
             price: 0,
             discountedPrice: 0,
-            productUrl: ''
+            productUrl: '',
+            quantity: 1
         },
     ]

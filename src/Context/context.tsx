@@ -4,13 +4,22 @@ import { toast } from "react-hot-toast";
 import { DestinationInfo } from "../Components/Checkout/ShippingPage/shipping.page";
 
 type ContextType = {
+    //Export Local Storage
     cartProducts: ProductInfo[] | null
     wishlistProducts: ProductInfo[] | null
     destinations: DestinationInfo[] | null
+
+    //Export Cart methods
     handleAddProductToCart: (product: ProductInfo) => void
     handleRemoveProductFromCart: (product: ProductInfo) => void
+    handleCartQuantityIncrease: (product: ProductInfo) => void
+    handleCartQuantityDecrease: (product: ProductInfo) => void
+
+    //Export Wishlist methods
     handleAddProductToWishlist: (product: ProductInfo) => void
     handleRemoveProductFromWishlist: (product: ProductInfo) => void
+
+    //Export Shipping methods
     handleAddDestination: (destination: DestinationInfo) => void
     handleRemoveDestination: (destination: DestinationInfo) => void
 }
@@ -71,6 +80,48 @@ export const ContextProvider = (props: Props) => {
             
             toast.success('Produto removido do carrinho')
             localStorage.setItem('cart', JSON.stringify(filteredProducts))
+        }
+    },[cartProducts])
+
+    const handleCartQuantityIncrease = useCallback((product: ProductInfo) => {
+        let updatedCart;
+
+        if(product.quantity > 99) {
+            return toast.error("Quantidade máxima atingida!")
+        }
+
+        if(cartProducts) {
+            updatedCart = [...cartProducts]
+            
+            const existingIndex = cartProducts.findIndex((item) => item.id === product.id)
+
+            if(existingIndex > -1) {
+                updatedCart[existingIndex].quantity = ++updatedCart[existingIndex].quantity
+            }
+
+            setCartProducts(updatedCart)
+            localStorage.setItem('cart', JSON.stringify(updatedCart))
+        }
+    },[cartProducts])
+
+    const handleCartQuantityDecrease = useCallback((product: ProductInfo) => {
+        let updatedCart;
+
+        if(product.quantity <= 1) {
+            return toast.error("Quantidade mínima atingida!")
+        }
+
+        if(cartProducts) {
+            updatedCart = [...cartProducts]
+            
+            const existingIndex = cartProducts.findIndex((item) => item.id === product.id)
+
+            if(existingIndex > -1) {
+                updatedCart[existingIndex].quantity = --updatedCart[existingIndex].quantity
+            }
+
+            setCartProducts(updatedCart)
+            localStorage.setItem('cart', JSON.stringify(updatedCart))
         }
     },[cartProducts])
 
@@ -144,6 +195,8 @@ export const ContextProvider = (props: Props) => {
         destinations,
         handleAddProductToCart,
         handleRemoveProductFromCart,
+        handleCartQuantityIncrease,
+        handleCartQuantityDecrease,
         handleAddProductToWishlist,
         handleRemoveProductFromWishlist,
         handleAddDestination,

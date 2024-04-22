@@ -16,6 +16,7 @@ export interface ProductInfo {
     overview: string,
     imgLink: string,
     productUrl: string,
+    quantity: number,
 }
 
 interface ProductMenuProps extends ProductInfo {
@@ -38,6 +39,7 @@ function ProductMenu(props: ProductMenuProps,) {
         imgAlt: props.imgAlt,
         imgLink: props.imgLink,
         productUrl: props.productUrl,
+        quantity: props.quantity
     })
 
     useEffect(() => {

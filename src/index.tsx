@@ -38,6 +38,7 @@ const productRoutes = products.map(product => ({
             discountedPrice={product.discountedPrice}
             overview={product.overview}
             productUrl={product.productUrl} 
+            quantity={product.quantity}
           />, 
 })); 
 
@@ -126,7 +127,9 @@ const router = createBrowserRouter([{
 root.render(
   <React.StrictMode>
     <GoogleOAuthProvider clientId="225610013643-h4vjojhkbfol6ht7rnlprjbdmjpfp1tp.apps.googleusercontent.com">
-      <Toaster toastOptions={{duration: 3000,style:{background: '#FFFFFF',color: '#000000'},success: {iconTheme: {primary: '#000000',secondary: '#FFFFFF'}}}}/>
+      <Toaster toastOptions={{duration: 3000,style:{background: '#FFFFFF',color: '#000000'},
+      success: {iconTheme: {primary: '#000000',secondary: '#FFFFFF'}}, 
+      error: {iconTheme: {primary: '#000000',secondary: '#FFFFFF'}}}}/>
       <ContextProvider>
           <RouterProvider router={router} />
       </ContextProvider>

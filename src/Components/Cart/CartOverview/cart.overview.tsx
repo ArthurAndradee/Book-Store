@@ -23,7 +23,7 @@ function CartOverview() {
         onError: tokenResponse => setFailWarning(true)
     });
 
-    const totalSum = cartProducts ? cartProducts.reduce((price, product) => price + product.price, 0) : 0;
+    const totalSum = cartProducts ? cartProducts.reduce((price, product) => price + product.price * product.quantity, 0) : 0;
 
     return (
         <div className='cart-overview'>

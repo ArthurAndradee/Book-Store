@@ -15,6 +15,7 @@ interface ProductProps {
     imgLink: string
     imgAlt: string
     productUrl: string
+    quantity: number
   }
 
 function ProductPage(props: ProductProps) {
@@ -41,6 +42,7 @@ function ProductPage(props: ProductProps) {
                   imgAlt={props.imgAlt} 
                   productUrl={props.productUrl}
                   createId={createId} 
+                  quantity={props.quantity}
                 />
             </div>
             
